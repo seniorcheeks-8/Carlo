@@ -1,0 +1,165 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.0f1 (88b47c5e7076) revision 8959100'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 65299 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Martha" at "2026-06-18T23:16:34.1036019Z"
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-18T23:16:34Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.0f1\Editor\Unity.exe
+-projectpath
+D:\Carlo\Coding\the cube game
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-Martha
+-hubSessionId
+5c314280-fdf3-46d6-8d98-9f3a80d90b88
+-accessToken
+sttlkatLm4qQEs3ldBCkcBkv7GTMQXvtxWxQmF9CokU002f
+Successfully changed project path to: D:\Carlo\Coding\the cube game
+D:/Carlo/Coding/the cube game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30652]  Target information:
+
+Player connection [30652]  * "[IP] 192.168.0.150 [Port] 55504 [Flags] 2 [Guid] 2121597723 [EditorId] 2121597723 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1A20O2K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-24880" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Martha"
+[Licensing::IpcConnector] LicenseClient-Martha channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-Martha-6000.5.0 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 27364)
+Starting IPC server.
+Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-Martha-6000.5.0, press Ctrl-C to exit.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Martha-6000.5.0" at "2026-06-18T23:16:35.496008Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27364, path: "C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              eadd66d73bf8418ebea584db956ec0d1
+  Correlation Id:          a7f3c621934f3508dd8d1797bf0ba532
+  External correlation Id: 49265372874799962
+  Machine Id:              SAyTQUdp45Nep2XtEYRRW7rqbIs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Martha-6000.5.0" (connect: 0.25s, validation: 0.23s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Martha-6000.5.0-notifications" at "2026-06-18T23:16:35.7346704Z"
+[Licensing::Module] Connected to LicensingClient (PId: 27364, launch time: 0.00, total connection time: 0.48s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token sttlkatLm4...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475998911571-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.68s
+[Licensing::Module] Licensing is initialized (took 1.03s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 62 unused hashed content files
+Initialize engine version: 6000.5.0f1 (88b47c5e7076)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Carlo/Coding/the cube game/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: Radeon(TM) RX 550
+[D3D12 Device Filter] Driver Version: 31.0.21924.61
+[D3D12 Device Filter] Feature Level: 12.0
+[D3D12 Device Filter] Graphics Memory: 2027 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Feature Level Comparator": Less Than"Feature Level": "12.1", "Device Type:": Do Not Care}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon(TM) RX 550 (ID=0x699f)
+    Vendor:   ATI
+    VRAM:     2027 MB
+    Driver:   31.0.21924.61
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002082 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Starting new worker id: 0 with log in D:/Carlo/Coding/the cube game/Logs/AssetImportWorkerHW0.log
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Martha-6000.5.0-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Martha-6000.5.0 channel disconnected successfully.
+Shut down.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 7040
+Exiting without the bug reporter. Application will terminate with return code 0
